@@ -1,0 +1,29 @@
+body {
+    font-family: Onest;
+    background-color: #FA6E2D;
+    color: #47FFED;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:"Young Serif";
+    font-size:45px;
+}
+
+header {
+    text-align:center;
+}
+
+#hero, footer {
+    background-color: #AD3700;
+    text-align:center;
+    padding: 10px;
+    border: 5px solid;
+}
+
+#hero img {
+    width: 350px;
+}
+
+#bio {
+    text-align: center;
+}
