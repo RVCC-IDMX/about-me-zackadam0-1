@@ -7,6 +7,7 @@ body {
 h1, h2, h3, h4, h5, h6{
     font-family:"Young Serif";
     font-size:30px;
+    text-align:center;
 }
 
 h1 { 
@@ -21,16 +22,22 @@ header {
     background-color: #AD3700;
     text-align:center;
     padding: 10px;
-    border: 5px solid;
+    border: 5px solid #47FFED;
 }
+
+/*Hero Section*/
 
 #hero img {
     width: 350px;
 }
 
+/*Bio Section*/
+
 #bio {
     text-align: center;
 }
+
+/*Hobbies Section*/
 
 #hobbies ul li:nth-child(3n+1){
     color:#10AD9E;
@@ -42,4 +49,23 @@ header {
 
 #hobbies ul li:nth-child(3n){
     color:#96faf0;
+}
+
+/*Gallery*/
+
+#gallery{
+    border: 5px solid #47FFED;
+}
+
+#gallery img{
+    max-width:100%;
+}
+
+#gallery figure{
+    text-align:center;
+}
+
+#gallery figcaption{
+    float:left;
+    padding-top:250px;
 }
