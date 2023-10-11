@@ -96,7 +96,7 @@ header {
 
 /*dropcaps*/
 
-#lit div p:first-letter {
+#lit div p:first-child::first-letter {
     color: rgb(8, 90, 0);
     background-image:linear-gradient(#FA6E2D,#AD3700);
     float:left;
@@ -127,4 +127,32 @@ header {
         margin-left: 1rem;
     }
 
+    figure img{
+        width: 100%;
+    }
+
+    #lit div {
+        columns: 20rem;
+        max-width:100%;
+    }
 }
+
+/* Large Screen Size */
+@media screen and (min-width: 100em){
+    
+    #gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr{
+        display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+
+    figure{
+        display: block;
+    }
