@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6{
     text-align:center;
 }
 
+h2 {
+    margin: .1em;
+}
+
 h1 { 
     font-size:45px
 }
@@ -39,6 +43,12 @@ header {
 
 /*Hobbies Section*/
 
+#hobbies{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;    
+}
+
 #hobbies ul li:nth-child(3n+1){
     color:#10AD9E;
 }
@@ -66,8 +76,7 @@ header {
 }
 
 #gallery figcaption{
-    float:left;
-    padding-top:250px;
+    padding-top:10px;
 }
 
 /*Lit Article*/
@@ -100,4 +109,22 @@ header {
     border-top-left-radius: 15%;
     box-shadow:3px 3px 3px rgb(23, 51, 0);
     text-shadow:2px 2px 2px rgb(23, 51, 0);
+}
+
+/* Tablet Size */
+@media screen and (min-width: 60em){
+
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
 }
