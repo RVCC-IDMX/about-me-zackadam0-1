@@ -141,6 +141,55 @@ figcaption{
 
 #formElements {
     display: grid;
+    row-gap: .5em;
+}
+
+#contact {
+    padding: 1rem;
+    max-width:600px;
+    margin: 2rem auto;
+}
+
+fieldset {
+    border: 2px solid #AD3700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 20px;
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+    box-shadow:#10AD9E 4px 4px;
+}
+
+#contact input[type="radio"]{
+    box-shadow:none;
+}
+
+#contact ul{
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li{
+    margin: 1rem;
+}
+
+#contact button{
+    background-color: #AD3700;
+    color: #47FFED;
+    border: 1px solid #963406e1;
+    max-width:400px;
+    width:50%;
+    justify-self:center;
+    border-radius: 20px;
+}
+
+legend {
+    background-color: #AD3700;
+    color: #47FFED;
+    padding: .5em;
 }
 
 
