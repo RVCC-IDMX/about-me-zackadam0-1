@@ -137,6 +137,12 @@ figcaption{
     position:relative;
 }
 
+/*Contact Form*/
+
+#formElements {
+    display: grid;
+}
+
 
 /* Tablet Size */
 @media screen and (min-width: 60em){
