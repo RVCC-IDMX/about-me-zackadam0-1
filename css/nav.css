@@ -71,6 +71,12 @@ main{
     display: inline-block;
 }
 
+.navbar-links a:hover,
+.navbar-links a:focus{
+    filter: invert(1);
+    border-radius: 13px;
+    outline: none;
+}
 
 /* 
 media query for non-mobile nav bar
