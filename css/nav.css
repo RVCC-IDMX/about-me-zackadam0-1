@@ -48,7 +48,7 @@ main{
 }
 
 .logo h1{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 /* navigation list */
@@ -57,6 +57,7 @@ main{
     list-style: none;
     display:block;
     padding: 0.5em 0;
+    padding: 15px;
 }
 
 /*  
@@ -84,3 +85,16 @@ media query for non-mobile nav bar
 min-width set to width of nav elements 
 such that no text wraps 
 */
+
+@media screen and (min-width: 60rem){
+
+    .navbar{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: space-between;
+    }
+}
