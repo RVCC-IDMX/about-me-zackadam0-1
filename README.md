@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c91eae3-5003-4eae-8ee8-2bfd117d27b9/deploy-status)](https://app.netlify.com/sites/about-me-zackadam0-1/deploys)
 # Zachary Adam - About Me
 
 This about me website is a personal blog site that demonstrates and outlines my learnings beginner HTML and CSS in Web Developement I
@@ -19,6 +20,4 @@ In this section I learned more HTML for adding in forms and accepting input from
 
 ## License
 
-TBD
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9c91eae3-5003-4eae-8ee8-2bfd117d27b9/deploy-status)](https://app.netlify.com/sites/about-me-zackadam0-1/deploys)
+&copy; 2023 - Zachary Adam
