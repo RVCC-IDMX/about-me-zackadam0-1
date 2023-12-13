@@ -27,7 +27,7 @@ main{
 /* navbar */
 
 .navbar{
-    background-color: #AD3700;
+    background-color: #491c92;
     display: flex;
     flex-direction: column;
     font-size: 1.8rem;
@@ -66,8 +66,8 @@ main{
 */
 
 .navbar-links a{
-    color: #47FFED;
-    background-color: #AD3700;
+    color: #D4D71D;
+    background-color: #491c92;
     letter-spacing: 5px;
     text-decoration: none;
     display: inline-block;
