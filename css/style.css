@@ -50,6 +50,14 @@ header {
     align-items: center;    
 }
 
+#hobbies ul{
+    list-style-type: none;
+}
+
+#hobbies li{
+    margin: 10px 0;
+}
+
 #hobbies ul li:nth-child(3n+1){
     color:#D4D71D;
 }
