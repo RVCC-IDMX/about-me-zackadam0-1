@@ -201,6 +201,22 @@ legend {
     padding: .5em;
 }
 
+/*Footer*/
+
+#footerLinks .link{
+    color:#D4D71D;
+}
+
+#footerLinks li{
+    list-style-type: none;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#license{
+    text-align: center;
+}
+
 
 /* Tablet Size */
 @media screen and (min-width: 60em){
