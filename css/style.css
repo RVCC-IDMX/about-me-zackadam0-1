@@ -34,6 +34,8 @@ header {
 
 #hero img {
     width: 200px;
+    margin-top: 2rem;
+    border: 5px solid #D4D71D;
 }
 
 /*Bio Section*/
