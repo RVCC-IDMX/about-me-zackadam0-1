@@ -20,7 +20,14 @@ In this section I learned more styling features such as creating a drop cap and 
 ## Contact Form
 In this section I learned more HTML for adding in forms and accepting input from users as well as more CSS on how to style the contact form and make sure the input is accepted properly through post method. 
 
-# Color Scheme
+## Color Scheme
+The colors I chose worked together to be greater than the minimum contrast ratio of 4.5 so that the website is visually pleasing and able to be read by all.
+My Colors:
+#491C92 | rgb(73,28,146)
+#6200FF | rgb(98,0,255)
+#D4D71D | rgb(212,215,29)
+#FCFF45 | rgb(252,255,69)
+
 
 ## Citations:
 
