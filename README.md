@@ -25,7 +25,8 @@ The colors I chose worked together to be greater than the minimum contrast ratio
 My Colors:  
 #491C92 | rgb(73,28,146)  
 #6200FF | rgb(98,0,255)  
-#D4D71D | rgb(212,215,29)  
+    color:#D4D71D;
+#D4D71D | rgb(212,215,29)color:#D4D71D    
 #FCFF45 | rgb(252,255,69)  
 
 
