@@ -23,10 +23,10 @@ In this section I learned more HTML for adding in forms and accepting input from
 ## Color Scheme
 The colors I chose worked together to be greater than the minimum contrast ratio of 4.5 so that the website is visually pleasing and able to be read by all.  
 My Colors:  
-<span style="color:#491C92">#491C92 | rgb(73,28,146)</span>
-<span style="color:#6200FF">#6200FF | rgb(98,0,255)</span> 
-<span style="color:#D4D71D">#D4D71D | rgb(212,215,29)</span> 
-<span style="color:#FCFF45">#FCFF45 | rgb(252,255,69)</span>     
+<span style="color:#491C92">#491C92 | rgb(73,28,146)</span>  
+<span style="color:#6200FF">#6200FF | rgb(98,0,255)</span>   
+<span style="color:#D4D71D">#D4D71D | rgb(212,215,29)</span>   
+<span style="color:#FCFF45">#FCFF45 | rgb(252,255,69)</span>       
 
 
 ## Citations:
