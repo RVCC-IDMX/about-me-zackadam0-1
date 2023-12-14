@@ -30,7 +30,7 @@ My Colors:
 
 
 ## Citations:
--Fonts from [Google Fonts] (https://fonts.google.com)  
+-Fonts from [Google Fonts](https://fonts.google.com)  
 
 Blog Sources:  
 -[Google Maps Platform Documentation](https://developers.google.com/maps/documentation/embed/embedding-map)   
