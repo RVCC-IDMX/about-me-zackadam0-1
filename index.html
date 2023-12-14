@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Onest&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -17,9 +18,20 @@
     <!-- the body contains all content a visitor sees-->
     <header>
         <nav class="navbar">
-
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+            <label for="nav-checkbox" class="nav-toggle">
+                <svg class="menu" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20" rx="10"></rect>
+                    <rect y="30" width="100" height="20" rx="10"></rect>
+                    <rect y="60" width="100" height="20" rx="10"></rect></svg>
+                <svg class="close" viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20" rx="10" x="20"></rect>
+                    <rect y="30" x="40" width="100" height="20" rx="10"></rect>
+                    <rect y="60" x="60" width="100" height="20" rx="10"></rect>
+                </svg>
+            </label>
             <div class="logo">
-                <img src="img/logo-96X96.svg" alt="Blue Origami Crane Logo">
+                <img src="img/za-orbitron.svg" alt="My Initials Z A as a logo">
                 <h1>Web Dev I</h1> 
             </div>
             <div class="navbar-links">
@@ -40,7 +52,7 @@
 
         <section id="hero">
             <!-- Hero Section: profile image, name & location-->
-        <img src="img/avataaars.png" alt="Cartoon avatar of myself">
+        <img src="img/hero-img.jpg" alt="Image of myself standing on my driveway in a tie.">
 
         <div>
             <p>Zachary Adam</p>
@@ -56,34 +68,38 @@
             <h2>Bio:</h2>
 
             <div>
-                <p>I want to be...</p>
+                <p>My name is Zachary Adam. I was born in New Jersey and grew up here graduating from Hillsborough High School. I am currently 
+                   a student at Raritan Valley Community College attempting to earn my associates degree in Computer Science before transferring 
+                   to a Bachelor's program. I would like to launch a career as a Full-Stack Web Developer. The skills I picked up on HTML and CSS 
+                   in Web Development I will hopefully be invaluable to me in launching my career as I progress and further hone new skills. </p>
 
-                <p>A Full-Stack Web Developer</p>
                 <!-- end bio section-->
             </div>
 
             
         </section>
 
+        <!--Hobbies section-->
         <section id="hobbies">
 
             <h2>Hobbies:</h2>
 
             <ul>
-                <li>Reading</li>
-                <li>Guitar</li>
-                <li>Playing Video Games</li>
-                <li>Fishing</li>
-                <li>Watching Television & Film</li>
-                <li>Cooking</li>
-                <li>Piano</li>
-                <li>Running and Exercise</li>
-                <li>Programming</li>
-                <li>Learning as many new things as possible</li>
+                <li>I enjoy listening to music of any genre. My TIDAL playlist will be linked in the footer. I also enjoy playing 
+                    music as some of my hobbies include playing the guitar and the piano.</li>
+                <li>Another main hobby of mine is playing video games. I play on PC and PlayStation, and I also enjoy essentialy any genres of game.
+                    My steam profile will be linked in the footer. </li>
+                <li>I am and avid fan of Television and Film watching movies from any genre but my some of favorite genres are science fiction and 
+                    psychological thrillers. My Letterboxd will be linked in the footer.</li>
+                <li>I enjoy cooking many dishes and love trying food from new cuisine as well as attempting the recipes. The image gallery below contains 
+                    some of the foods!</li>
+                <li>Running and general exercise are another hobby of mine that I like to keep up. I ran Cross Country and Track & Field in middle 
+                    and high school and have always enjoyed the competetive aspect and personal improvement aspect. </li>
             </ul>
 
         </section>
 
+        <!--Image Gallery-->
         <section id="gallery">
 
             <h2>Images:</h2>
@@ -111,41 +127,48 @@
 
         </section>
 
+        <!--Blog Article on-->
         <article id="lit">
 
-            <h2>An Excerpt From: The Adventures of Sherlock Holmes</h2>
+            <h2>How to embed static Google maps:</h2>
 
             <div>
 
-                <p>On entering the house, however, I examined, as you remember, the sill and framework of the hall 
-                    window with my lens, and I could at once see that someone had passed out. I could distinguish 
-                    the outline of an instep where the wet foot had been placed in coming in. I was then beginning 
-                    to be able to form an opinion as to what had occurred. A man had waited outside the window; 
-                    someone had brought the gems; the deed had been overseen by your son; he had pursued the thief; 
-                    had struggled with him; they had each tugged at the coronet, their united strength causing injuries 
-                    which neither alone could have effected. He had returned with the prize, but had left a fragment in 
-                    the grasp of his opponent. So far I was clear. The question now was, who was the man and who was it 
-                    brought him the coronet?</p>
+                <p>A common requirement depending on your job position and tasks in the field of Web Development could very 
+                    well be incorporating interactive and visually appealing maps. One of the most popular choices is Google 
+                    Maps as it is one of the most popular tools utilized by many. More than 150 million people use Google Maps 
+                    monthly. Another major point is that Google Maps are interactive by default. They can help potential customers 
+                    locate a business more easily, help people find landmarks or navigate towns and cities more easily, and can 
+                    even highlight walkable routes if you are not traveling by vehicle. </p>
 
-                <p>It is an old maxim of mine that when you have excluded the impossible, whatever remains, however 
-                    improbable, must be the truth. Now, I knew that it was not you who had brought it down, so there only
-                     remained your niece and the maids. But if it were the maids, why should your son allow himself to be 
-                     accused in their place? There could be no possible reason. As he loved his cousin, however, there was 
-                     an excellent explanation why he should retain her secret--the more so as the secret was a disgraceful 
-                     one. When I remembered that you had seen her at that window, and how she had fainted on seeing the 
-                     coronet again, my conjecture became a certainty.</p>
+                <p>Once you embed a Google Map in your site there are many things that can actually then be done. You can either embed
+                     the code using Javascript or HTML, and you can even style it using CSS. It is important to make sure that the map 
+                    contains responsive design especially for different screen sizes. There are actually multiple ways to embed the Map, 
+                    the first being by obtaining an API key then creating the iFrame yourself, but Google actually makes it much easier than 
+                    this. When you search for a location or area you can simply press the “share” button on the Google Maps page for that point 
+                    of interest. This will open up a window that allows you to resize the frame itself, but also contains the HTML iFrame code 
+                    itself that you can just copy and integrate into your own HTML. It is possible to style the map differently as well; you can 
+                    embed a satellite map, a standard Google map, or a street view map. </p>
 
-                <p>And who could it be who was her confederate? A lover evidently, for who else could outweigh the love 
-                    and gratitude which she must feel to you? I knew that you went out little, and that your circle of 
-                    friends was a very limited one. But among them was Sir George Burnwell. I had heard of him before as 
-                    being a man of evil reputation among women. It must have been he who wore those boots and retained the 
-                    missing gems. Even though he knew that Arthur had discovered him, he might still flatter himself that he 
-                    was safe, for the lad could not say a word without compromising his own family.</p>
+                <p>It would be more ideal to consider using media queries or percentage values in your responsive design for the map to make sure 
+                    it displays optimally across various screen sizes. In this era we currently have many diverse screen sizes and aspect ratios 
+                    that make it much more important to take these responsive factors into consideration when designing. Below is an example 
+                    of a standard Google Maps iFrame embed of Raritan Valley Community College. As you can see the ability to interact with 
+                    the map is naturally included by Google making these iFrame embeds that much more convenient. </p>
 
             </div>
 
+            <section id="map">
+            <figure id="map-iframe">  
+            <figcaption>RVCC Map iFrame Embed:</figcaption>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.901322601763!2d-74.69076152355264!3d40.61000074385302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3937dc5acab1f%3A0x15e7f0de30681faa!2sRaritan%20Valley%20Community%20College!5e0!3m2!1sen!2sus!4v1702551452180!5m2!1sen!2sus" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+        </section>
+
         </article>
 
+        <!--Video Embed-->
         <section id="videoSectionTitle">
         
             <h2>A Brief Clip:</h2>
@@ -163,6 +186,7 @@
 
         </section>
 
+        <!--Contact Submission Form-->
         <section id="contact">
 
             <h2>Contact Us:</h2>
@@ -227,10 +251,25 @@
 
     </main>
 
+    <!--License-->
     <footer>
 
-        &copy; 2023 - Zachary Adam
+        <section id="footerLinks">
+            <ul>
+                <li><a class="link" href="https://listen.tidal.com/playlist/fb6d7194-500f-4cca-bc5e-2e4bd40d3815">TIDAL Playlist</a></li>
+                <li><a class="link" href="https://steamcommunity.com/id/iMVPGamer/">Steam Profile</a></li>
+                <li><a class="link" href="https://letterboxd.com/zack_a/">Letterboxd Profile</a></li>
+                <li><a class="link" href="https://github.com/RVCC-IDMX/about-me-zackadam0-1">GitHub Repository</a></li>
 
+
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="license">
+             &copy; 2023 - Zachary Adam
+        </section>
     </footer>
 
 </body>

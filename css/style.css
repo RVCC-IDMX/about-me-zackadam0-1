@@ -1,7 +1,8 @@
+/*Initial CSS*/
 body {
     font-family: Onest;
-    background-color: #FA6E2D;
-    color: #47FFED;
+    background-color: #6200FF;
+    color: #D4D71D;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -23,16 +24,18 @@ header {
 }
 
 #hero, footer {
-    background-color: #AD3700;
+    background-color: #491c92;
     text-align:center;
     padding: 10px;
-    border: 5px solid #47FFED;
+    border: 5px solid #D4D71D;
 }
 
 /*Hero Section*/
 
 #hero img {
-    width: 350px;
+    width: 200px;
+    margin-top: 2rem;
+    border: 5px solid #D4D71D;
 }
 
 /*Bio Section*/
@@ -49,22 +52,30 @@ header {
     align-items: center;    
 }
 
+#hobbies ul{
+    list-style-type: none;
+}
+
+#hobbies li{
+    margin: 10px 0;
+}
+
 #hobbies ul li:nth-child(3n+1){
-    color:#10AD9E;
+    color:#D4D71D;
 }
 
 #hobbies ul li:nth-child(3n+2){
-    color:#47FFED;
+    color:#fcff45;
 }
 
 #hobbies ul li:nth-child(3n){
-    color:#96faf0;
+    color:#d4d800;
 }
 
 /*Gallery*/
 
 #gallery{
-    border: 5px solid #47FFED;
+    border: 5px solid #D4D71D;
 }
 
 #gallery img{
@@ -79,10 +90,10 @@ header {
     padding-top:10px;
 }
 
-/*Lit Article*/
+/*Blog Article*/
 
 #lit{
-    border: 5px solid #47FFED;
+    border: 5px solid #D4D71D;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
@@ -97,18 +108,44 @@ header {
 /*dropcaps*/
 
 #lit div p:first-child::first-letter {
-    color: rgb(8, 90, 0);
-    background-image:linear-gradient(#FA6E2D,#AD3700);
+    color: #fcff45;
+    background-image:linear-gradient(#6200FF,#491c92);
     float:left;
     font-size:3em;
     padding: .25em;
     margin-right: .25em;
     line-height: .65;
     border: 3px solid black;
-    border-color:rgb(0, 168, 22);
+    border-color:#fcff45;
     border-top-left-radius: 15%;
     box-shadow:3px 3px 3px rgb(23, 51, 0);
     text-shadow:2px 2px 2px rgb(23, 51, 0);
+}
+
+/*Map iFrame Styling*/
+
+#map-iframe iframe{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}
+
+#map-iframe{
+    position:relative;
+    padding-bottom:56.25%;
+}
+
+#map{
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+#map-iframe figcaption{
+    position:fixed;
 }
 
 /*video section*/
@@ -151,7 +188,7 @@ figcaption{
 }
 
 fieldset {
-    border: 2px solid #AD3700;
+    border: 2px solid #491c92;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 20px;
@@ -160,7 +197,7 @@ fieldset {
 #contact input, #contact textarea, #contact select, #contact button {
     padding: .5em;
     font-size: 1rem;
-    box-shadow:#10AD9E 4px 4px;
+    box-shadow:#D4D71D 4px 4px;
 }
 
 #contact input[type="radio"]{
@@ -177,9 +214,9 @@ fieldset {
 }
 
 #contact button{
-    background-color: #AD3700;
-    color: #47FFED;
-    border: 1px solid #963406e1;
+    background-color: #491c92;
+    color: #D4D71D;
+    border: 1px solid #491c92;
     max-width:400px;
     width:50%;
     justify-self:center;
@@ -187,9 +224,25 @@ fieldset {
 }
 
 legend {
-    background-color: #AD3700;
-    color: #47FFED;
+    background-color: #491c92;
+    color: #D4D71D;
     padding: .5em;
+}
+
+/*Footer*/
+
+#footerLinks .link{
+    color:#D4D71D;
+}
+
+#footerLinks li{
+    list-style-type: none;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#license{
+    text-align: center;
 }
 
 
@@ -228,7 +281,7 @@ legend {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    hr{
+    #gallery hr{
         display: none;
     }
 
