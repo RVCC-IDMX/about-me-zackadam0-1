@@ -30,6 +30,12 @@ My Colors:
 
 
 ## Citations:
+-Fonts from [Google Fonts] (https://fonts.google.com)  
+
+Blog Sources:  
+-[Google Maps Platform Documentation] (https://developers.google.com/maps/documentation/embed/embedding-map)   
+-[duda Blog] (https://blog.duda.co/responsive-google-maps-for-your-website)  
+-[Labnol Blog] (https://www.labnol.org/internet/embed-responsive-google-maps/28333/)
 
 ## License
 
